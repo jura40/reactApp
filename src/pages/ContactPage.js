@@ -6,7 +6,7 @@ import {ReactComponent as ReactLogo} from '../components/bild/logo192.png';
 import Mail from "../components/Mail";
 import SearchBar from "../SearchBar/SearchBar";
 import SearchRepo from "../components/SearchRepo";
-
+import { FaBeer } from 'react-icons/fa';
 
 
 
@@ -14,12 +14,13 @@ function ContactPage(props) {
     let navigate = useNavigate();
   return (
      <div className="container border">
+        <h2>Welcome to Contact!</h2>
+        
          <div>
               <Mail></Mail>
          </div>
-        <h2>Welcome to Contact!</h2>
-        <h1>Här kan du se mina videos från YouToube</h1>
-        
+         <h3> Lets go for a <FaBeer /> ? </h3>
+         
        
         <div className="YoutubeLogo">
             <img src= {require ('../components/bild/youtube.png')}

@@ -38,7 +38,7 @@ const SearchRepo = () => {
         value ={searchInput} 
         onChange={handleChange}
         />
-     {/* <button onClick= {handleClick}> search</button> */}
+     <button onClick= {handleClick}> search</button>
      </div>
       <Results reposs= {reposs}/>
       </ Container>

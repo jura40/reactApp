@@ -12,6 +12,7 @@ function AboutPage(props) {
      <div className="container border">
         <h2>Welcome to the ABOUTpage!</h2>
         <br />
+        <h1>Här kan du se mina videos från YouToube</h1>
         
         <SearchBar props = {props} />
       <VideoArea />
