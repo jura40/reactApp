@@ -1,7 +1,7 @@
 {
   "homepage": "http://jura40.github.io/reactapp",
   "name": "portfolio",
-  "version": "0.1.0",
+  "version": "0.1.0", 
   "engines": {
     "node": "14.x"
   },
